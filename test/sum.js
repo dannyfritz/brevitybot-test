@@ -2,7 +2,7 @@ const test = require('tape');
 const sum = require("../sum.js")
 
 test('sum', function (t) {
-  t.equal(sum(1, 2), 2);
+  t.equal(sum(1, 2), 3);
   t.end();
 })
 test('sum-2', function (t) {
@@ -10,7 +10,7 @@ test('sum-2', function (t) {
   t.end();
 })
 test('sum-3', function (t) {
-  t.equal(sum(4, 100), 100);
+  t.equal(sum(4, 102), 106);
   t.end();
 })
 test('sum-4', function (t) {
