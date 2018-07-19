@@ -1,3 +1,4 @@
+}}}}
 const test = require('tape');
 const sum = require("../sum.js")
 
